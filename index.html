@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray h-screen">
+    <div class="container mx-auto max-w-screen-xl h-full px-[23px] py-[60px]">
+      <div class="flex justify-between mb-4">
+        <h1 class="text-[28px] font-bold leading-[38px]">Все счета</h1>
+        <button
+          class="bg-deep-purple px-4 py-2 rounded text-white text-[15px] leading-[22px]"
+        >
+          Выставить счёт
+        </button>
+      </div>
+      <div class="w-full">
+        <div class="hidden md:flex justify-between">
+          <div class="h-[54px] md:inline">Номер счета</div>
+          <div class="h-[54px] md:inline">Время и дата</div>
+          <div class="h-[54px] md:inline">Торговая точка / Операция</div>
+          <div class="h-[54px] md:inline">Сумма</div>
+          <div class="h-[54px] md:inline">Получено</div>
+          <div class="h-[54px] md:inline">Статус</div>
+        </div>
+        <div
+          class="flex flex-col flex-wrap md:flex justify-between md:flex-row"
+        >
+          <div class="flex flex-col h-[54px] md:inline">
+            <span class="block md:hidden">Номер счета</span>№32467
+          </div>
+          <div class="flex flex-col h-[54px] md:inline">
+            <span class="block md:hidden">Время и дата</span>11:20 05.01.2019
+          </div>
+          <div class="flex flex-col h-[54px] md:inline">
+            <span class="block md:hidden">Торговая точка / Операция</span>Smart
+            Лазурный
+          </div>
+          <div class="flex flex-col h-[54px] md:inline">
+            <span class="block md:hidden">Сумма</span>1500 тг
+          </div>
+          <div class="flex flex-col h-[54px] md:inline">
+            <span class="block md:hidden">Получено</span>1350 тг
+          </div>
+          <div class="flex flex-col h-[54px] md:inline">
+            <span class="block md:hidden">Статус</span>Оплачено
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
